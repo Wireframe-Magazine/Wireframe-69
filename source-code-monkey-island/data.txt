@@ -1,0 +1,106 @@
+Pause:8
+Scene:CliffTop
+Background:clifftop
+Foreground:lookoutwall
+Character:0:guybrush1,460,220
+Character:1:lookout1,290,220
+Pause:1
+Character:0:guybrush4,450,220
+Pause:1
+Character:0:guybrush1,440,220
+Pause:1
+Character:0:guybrush4,430,220
+Pause:1
+Character:0:guybrush1,420,220
+Speech:0:Hi. I'm Guybrush Threepwood and I want to be a pirate.
+Pause:10
+Character:1:lookout2,290,220
+Speech:1:Yikes!
+Pause:4
+Speech:1:Don't creep up on me like that.
+Pause:6
+Speech:0:Err.. I'm over this way.
+Pause:6
+Character:1:lookout3,290,220
+Speech:1:Ah! Well then Thriftweed --
+Pause:5
+Speech:0:THREEPWOOD
+Pause:4
+Speech:0:Guybrush THREEPWOOD.
+Pause:4
+Speech:1:I see.
+Pause 3
+Speech:1:So you want to be a pirate, eh?
+Pause:6
+Speech:1:You look more like a flooring inspector.
+Pause:6
+Speech:1:But if you are serious about pirating...
+Pause:6
+Speech:1:go talk to the pirate leaders.
+Pause:6
+Speech:1:You'll find them in the Scumm Bar.
+Pause:6
+Speech:0:Gosh, thanks!
+Pause:4
+Speech:0:I'll do that!
+Pause:4
+Speech:0:Bye now.
+Pause:4
+Speech:0:I'm off to seek my fortune!
+Pause:6
+Speech:1:Good luck!
+Pause:4
+Character:1:lookout2,290,220
+Character:0:guybrush2,430,220
+Pause:1
+Character:1:lookout1,290,220
+Character:0:guybrush3,440,220
+Pause:1
+Character:0:guybrush2,450,220
+Pause:1
+Character:0:guybrush3,460,220
+Pause:1
+Character:0:guybrush2,470,220
+Pause:2
+Character:0:guybrush1,480,220
+Pause:2
+Speech:0:Um...
+Pause:3
+Speech:0:Where did you say those pirate leaders were?
+Pause:7
+Speech:1:The SCUMM BAR.
+Pause:4
+Speech:0:Right.
+Pause:3
+Speech:0:Thanks.
+Pause:3
+Character:0:guybrush2,480,220
+SetOption:0:Wait Around:Wait around.
+SetOption:1:Scumm Bar:Go to the Scumm Bar.
+Stop:Pause and wait for input
+Scene:Wait Around
+Background:clifftop
+Foreground:lookoutwall
+Character:0:guybrush1,480,220
+Character:1:lookout1,290,220
+Pause:1
+Character:0:guybrush2,480,220
+Pause:2
+Character:0:guybrush1,480,220
+Pause:2
+Character:0:guybrush2,480,220
+SetOption:0:Wait Around:Wait around.
+SetOption:1:Scumm Bar:Go to the Scumm Bar.
+Stop:Pause and wait for input
+Scene:Scumm Bar
+Background:scummbar
+Character:0:guybrush2,200,330
+Pause:1
+Character:0:guybrush3,210,330
+Pause:1
+Character:0:guybrush2,220,330
+Pause:1
+Character:0:guybrush3,230,330
+Pause:1
+Character:0:guybrush2,240,330
+Stop:End of the script
